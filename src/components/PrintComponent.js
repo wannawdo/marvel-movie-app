@@ -29,9 +29,9 @@ export const PrintComponent = React.forwardRef((props, ref) => {
   const [translatedOverview, setTranslatedOverview] = useState("");
   const [translatedTitle, setTranslatedTitle] = useState("");
   const [translatedTagline, setTranslatedTagline] = useState("");
-
-  const url = "https://marvel-movie-api-cloud.herokuapp.com/utils/translate";
   const language = "ro";
+  const url = "https://marvel-movie-api-cloud.herokuapp.com/utils/translate";
+
 
   const translateText = (text) => {
     const obj = {

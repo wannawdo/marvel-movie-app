@@ -135,7 +135,7 @@ export const Movie = (props) => {
               {movieGenre?.map((movieItem) => `${movieItem.name} `)} |{" "}
               {movieDetails.release_date} | {movieDetails.runtime}mins
             </Typography>
-            <div className="ratings">
+            <div className="ratings" >
               <Typography
                 variant="subtitle1"
                 fontWeight="fontWeightBold"

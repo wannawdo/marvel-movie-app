@@ -17,11 +17,11 @@ import { deepOrange, indigo } from "@mui/material/colors";
 
 export const PrintComponent = React.forwardRef((props, ref) => {
   const movieCast = props.movieActors;
+  const movieGenre = props.movieData.genres;
 
   const [moviePoster, setMoviePoster] = useState("");
   const [movieDetails, setMovieDetails] = useState({});
 
-  const movieGenre = props.movieData.genres;
 
   const actorList = movieCast.map((actor) => <ActorCard {...actor} />);
   const label = movieDetails.vote_count + " voturi";

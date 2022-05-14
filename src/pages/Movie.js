@@ -132,7 +132,7 @@ export const Movie = (props) => {
               >
                 Genres:
               </Box>
-              {movieGenre.map((movieItem) => `${movieItem.name} `)} |{" "}
+              {movieGenre?.map((movieItem) => `${movieItem.name} `)} |{" "}
               {movieDetails.release_date} | {movieDetails.runtime}mins
             </Typography>
             <div className="ratings">

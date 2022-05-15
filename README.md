@@ -29,7 +29,7 @@ De asemenea, prin intermediul acestei opțiuni de traducere și printare, un uti
 
 - [The Movie Database](https://developers.themoviedb.org/), prin care am accesat informații despre filmele Marvel;
 
-- [Translate API](https://cloud.google.com/translate), pe care l-am folosit pentru a traduce pagina corespunzătoare filmului dorit de utilizator Api-ul a fost integrat în aplicație sub forma unui pachet de npm. Pentru a ne putea folosi de acest serviciu, am creat un nou endpoint in backend, care accepta request-uri de tip POST pe ruta /utils/translate. Aici, datele primite sunt transmise pentru a fi traduse, alături de limba în care dorim sa realizam aceasta traducere, iar Google returnează textul tradus. Mai apoi, acesta este transmis ca și răspuns către client și afișat în traducerea pentru PDF.
+- [Translate API](https://cloud.google.com/translate), pe care l-am folosit pentru a traduce pagina corespunzătoare filmului dorit de utilizator. API-ul a fost integrat în aplicație sub forma unui pachet de npm. Pentru a ne putea folosi de acest serviciu, am creat un nou endpoint in backend, care accepta request-uri de tip POST pe ruta /utils/translate. Aici, datele primite sunt transmise pentru a fi traduse, alături de limba în care dorim sa realizam aceasta traducere, iar Google returnează textul tradus. Mai apoi, acesta este transmis ca și răspuns către client și afișat în traducerea pentru PDF.
 
 ## Tehnologii folosite
 Lumea nu poate trăi fără aplicații mobile și web în zilele noastre. Totul este digitizat, de la rezervarea de taxiuri până la comandarea alimentelor pentru a face tranzacții bancare. Datorită cadrelor eficiente care oferă o experiență perfectă pentru utilizator. O astfel de bibliotecă frontend robustă este React.

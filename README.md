@@ -44,7 +44,7 @@ Node.js este un mediu de rulare JavaScript open-source, multiplatformă, care ru
 
 Pentru versionarea și stocarea codului sursă am folosit gitHub, iar deploy-ul aplicației este realizat prin intermediul platformei Heroku. Prin aceasta, am putut seta environmentul pe care să ruleze aplicația, atât pe partea de backend, cât și pe partea de frontend, aplicație care poate fi accesată prin acest link: [https://marvel-movie-app.herokuapp.com/](https://marvel-movie-app.herokuapp.com/)
 
-##4. Flux de date
+## 4. Flux de date
 
 ⦁	Exemple de request / response
 
@@ -80,20 +80,23 @@ Utilizarea API-ului The Movie DB nu costă, nu are limite pentru request-uri, î
 
 ![Capture](https://user-images.githubusercontent.com/70256031/168480800-68d6f7ed-6494-4fcd-850e-0c656003f401.PNG)
 
-##5. Capturi ecran aplicație 
+## 5. Capturi ecran aplicație 
 Mai jos, este prezentată o poză cu pagina de început a aplicației: lista cu cele mai populare filme Marvel. Acestea sunt afișate într-un Grid cu ajutorul unor carduri și prezintă informații referitoare la: titlul filmului, data aparitiei, rating, o descriere, un buton pentru a vedea mai multe informații și poză cu poster-ul filmului.
+
 ![1-Homepage](https://user-images.githubusercontent.com/70256031/168480821-9f940f6f-a017-4705-921b-a09f847b19fb.PNG)
 
 
 Odată ce dăm click pe ,,VIEW MORE" suntem redirecționați pe următoarea pagină:
 ![2-MovieInfo](https://user-images.githubusercontent.com/70256031/168480826-bf89769b-4198-4300-8cb0-dda554b76033.PNG)
 
+
 Această pagină este destinată filmului selectat și, prin metodele de tip GET menționate mai sus, ne sunt prezentate detalii referitoare la titlu, subtitlu, genul filmului, durata, actorii care joacă și o descriere.
 
 În partea de sus avem un buton, intitulat ,,PRINT THIS OUT!", care, odată apăsat, declanșează metoda POST, care folosește API-ul de translate și ne afișează un Print Preview cu pagina tradusă. Aici există două opțiuni: fie printăm pagina, fie o putem salva ca PDF.
+
 ![3-SaveAsPDFTranslated](https://user-images.githubusercontent.com/70256031/168480838-407a6c3e-31fd-4764-b743-466a11950577.PNG)
 
-##6. Referințe
+## 6. Referințe
 [https://ziare.com/scoala/educatie/english-please-72-la-suta-dintre-romani-vorbesc-cel-putin-o-limba-straina-eurostat-1260398](https://ziare.com/scoala/educatie/english-please-72-la-suta-dintre-romani-vorbesc-cel-putin-o-limba-straina-eurostat-1260398)
 [https://www.diaryofanaspiringloser.com/whats-the-first-marvel-movie-clue-its-not-iron-man/](https://www.diaryofanaspiringloser.com/whats-the-first-marvel-movie-clue-its-not-iron-man/)
 [https://developers.themoviedb.org/3/movies/get-movie-details](https://developers.themoviedb.org/3/movies/get-movie-details)

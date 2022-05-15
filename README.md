@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# Marvel Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Link-uri:
+Link către aplicație: [https://marvel-movie-app.herokuapp.com/](https://marvel-movie-app.herokuapp.com/)
+Frontend link: [https://github.com/wannawdo/marvel-movie-app](https://github.com/wannawdo/marvel-movie-app)
+Backend link: [https://github.com/wannawdo/marvel-movie-api](https://github.com/wannawdo/marvel-movie-api)
 
-## Available Scripts
+## Introducere
+Astăzi, Marvel Studios este, fără îndoială, cea mai de succes franciză de film din istorie. Cu câte filme Marvel sunt în lista de blockbuster certificate, este aproape imposibil să găsești pe cineva care să nu-i cunoască pe Avengers, Spider-Man sau Doctor Stange.
+Cu toate acestea, Marvel nu a obținut succes la nivel mondial peste noapte.
+Deși Iron Man (2008) a fost bine primit de public, nu a fost primul film Marvel și nici primul film care a prezentat un personaj Marvel. Universul cinematografic Marvel (MCU) de care ne bucurăm astăzi, împreună cu milioane de fani, este produsul a 80 de ani de idei, eșecuri și succese. În anul 1944, adică acum 78 de ani, primul film Marvel și-a făcut apariția, acesta fiind ,,Capitan America Serial".
+Pot mărturisi faptul că inițial, filmele Marvel nu mi-au captat atenția, însă, în timp, am început să mă familiarizez cu ele și am reușit să observ de ce sunt atât de bine primite de către public. 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Descriere problemă
+Conform unui raport Eurostat, chiar dacă principala limbă străină vorbită în țara noastră este engleza, doar 17% dintre români afirmă că vorbesc această limbă bine. De accea, am dorit să creez o aplicație care să poată fi utilizată de 100% dintre români. 
+Marvel Movie App oferă utilizatorului posibilitatea de a vedea într-o listă, cele mai populare filme Marvel alături de o descriere scurtă, data lansării și popularitatea, iar printr-un simplu click pe butonul de ,,VIEW MORE" îi sunt afișate informații legate de gen, durata, rating, descriere și actorii care joacă în film. 
+Un alt aspect pe care am dorit să îl acopăr prin această aplicație este legat de împărtășirea informațiilor. Deși conform Mediafax, 80% dintre români folosesc internetul zilnic, nu toată lumea are acces la acesta, iar acest lucru nu ar trebui să aibă vreun efect asupra lor.  În plus, după cum am menționat și anterior, Marvel Movie App se adresează în special vorbitorilor de limba română. Așadar, beneficiază de o funcționalitate prin care în momentul în care utilizatorul alege să printeze sau să salveze ca PDF pagina, îi este tradusă automat în română. Astfel, va avea toate informațiile dorite la îndemână, fără a fi nevoie să aibă acces continuu la internet.
+De asemenea, prin intermediul acestei opțiuni de traducere și printare, un utilizator poate împărtăși informația cu oricine dorește, indiferent dacă persoana respectivă are sau nu acces la internet.

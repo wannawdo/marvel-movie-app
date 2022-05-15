@@ -87,6 +87,7 @@ Mai jos, este prezentată o poză cu pagina de început a aplicației: lista cu 
 
 
 Odată ce dăm click pe ,,VIEW MORE" suntem redirecționați pe următoarea pagină:
+
 ![2-MovieInfo](https://user-images.githubusercontent.com/70256031/168480826-bf89769b-4198-4300-8cb0-dda554b76033.PNG)
 
 

@@ -2,7 +2,9 @@
 
 ## Link-uri:
 Link către aplicație: [https://marvel-movie-app.herokuapp.com/](https://marvel-movie-app.herokuapp.com/)
+
 Frontend link: [https://github.com/wannawdo/marvel-movie-app](https://github.com/wannawdo/marvel-movie-app)
+
 Backend link: [https://github.com/wannawdo/marvel-movie-api](https://github.com/wannawdo/marvel-movie-api)
 
 ## Introducere
